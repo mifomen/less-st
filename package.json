@@ -1,0 +1,26 @@
+{
+  "name": "less-st",
+  "version": "1.0.0",
+  "description": "start-prj",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mifomen/less-st.git"
+  },
+  "keywords": [
+    "test",
+    "less"
+  ],
+  "author": "mifomen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mifomen/less-st/issues"
+  },
+  "homepage": "https://github.com/mifomen/less-st#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
