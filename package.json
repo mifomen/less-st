@@ -4,7 +4,8 @@
   "description": "start-prj",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "gulp build && gulp serve",
+    "start": "gulp build-final && gulp serve-final"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
     "gulp-plumber": "^1.2.1",
     "gulp-postcss": "^9.0.0",
     "gulp-rename": "^2.0.0",
+    "gulp-rm": "^2.0.0",
     "gulp-uglify": "^3.0.2"
   }
 }

@@ -6,6 +6,7 @@ let postcss= require( 'gulp-postcss' ) // post css
 let mqpacker= require( 'css-mqpacker' )
 let rename = require('gulp-rename');
 let csso = require('gulp-csso');
+let rm = require( 'gulp-rm' )
 
 gulp.task('less',function () {
     return gulp.src('src/**/main.less')
@@ -56,6 +57,33 @@ gulp.task('html', function (){
  })
 
 
+gulp.task('clear', function() {
+  return gulp.src( 'build/**/*', { read: false })
+  .pipe(rm({
+   async: true
+  }) )
+ })
+
+gulp.task('build',
+  gulp.series(
+      'clear',
+      // 'copy-fonts',
+      // 'copy-css',
+      // 'copy-css-54',
+      // 'html2pug',
+      // 'pug',
+      // 'html',
+      // 'img',
+      // 'svg',
+      'html',
+      'less',
+      // 'scripts:lib',
+      // 'script'
+      // $.gulp.parallel('html','img', 'scss'),
+      // $.gulp.parallel('scripts:lib','script')
+    // 'serve',
+    // 'watch'
+    ));
 
 
 
