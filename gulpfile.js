@@ -8,14 +8,15 @@ let mqpacker= require( 'css-mqpacker' )
 let rename = require('gulp-rename');
 let csso = require('gulp-csso');
 let rm = require( 'gulp-rm' )
+let sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('less',function () {
     return gulp.src('src/**/main.less')
-    // .pipe(sourcemaps.init())
+    .pipe(sourcemaps.init())
     .pipe(plumber())
     .pipe(less())
     // .pipe(less()).on('error', less.logError)
-    // .pipe(sourcemaps.write({includeContente: false, sourceRoot: '.'}))// delete ?
+    .pipe(sourcemaps.write({includeContente: false, sourceRoot: '.'}))// delete ?
     // .pipe(sourcemaps.init({loadMaps: true})) // delete ?
     .pipe(postcss([
       mqpacker({ sort: true })
@@ -70,6 +71,7 @@ gulp.task('less',function () {
       stream: true
     }))
   })
+
 
 
 gulp.task('script', function() {

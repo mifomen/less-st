@@ -1,4 +1,27 @@
 body {
   height: 200vh;
-  background: #eda;
+  background: black;
+}
+
+.main {
+  color:yellow;
+  &__title {
+    padding:0;
+    margin:0;
+    color: tomato;
+  }
+}
+
+
+.block {
+  width: 50%;
+  height: 50vh;
+  background-color: red;
+  @media @tablet {
+    background: orange;
+  }
+
+  @media @desktop {
+   background: yellow;
+ }
 }

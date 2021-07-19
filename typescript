@@ -129,4 +129,333 @@ Script started on 2021-07-19 17:52:33+03:00 [TERM="xterm-256color" TTY="/dev/pts
 [[34mBrowsersync[39m] [36mReloading Browsers... (buffered 2 events)[39m
 [[90m17:57:03[39m] Starting '[36mless[39m'...
 [[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.min.css[39m)
-[[90m17:57:03[39m] Finished '[36mless[
+[[90m17:57:03[39m] Finished '[36mless[39m' after [35m33 ms[39m
+^C
+]777;notify;Command completed;npm test\]777;precmd\]0;abc@mouse-pc:~/git/less-st\]7;file://mouse-pc/home/abc/git/less-st\[?2004h[abc@mouse-pc less-st]$ ^C[?2004l[?2004h[?2004l
+]777;notify;Command completed;npm test\]777;precmd\]0;abc@mouse-pc:~/git/less-st\]7;file://mouse-pc/home/abc/git/less-st\[?2004h[abc@mouse-pc less-st]$ git add .
+[?2004l]777;preexec\]777;notify;Command completed;git add .\]777;precmd\]0;abc@mouse-pc:~/git/less-st\]7;file://mouse-pc/home/abc/git/less-st\[?2004h[abc@mouse-pc less-st]$ git commit -m ""a"d"d" "j"s" "f"o"r" "s"t"-"p"r"j"
+[?2004l]777;preexec\[main f84fe1b] add js for st-prj
+ 5 files changed, 182 insertions(+), 10 deletions(-)
+ create mode 100644 src/js/main.js
+ create mode 100644 typescript
+]777;notify;Command completed;git commit -m "add js for st-prj"\]777;precmd\]0;abc@mouse-pc:~/git/less-st\]7;file://mouse-pc/home/abc/git/less-st\[?2004h[abc@mouse-pc less-st]$ git push
+[?2004l]777;preexec\Перечисление объектов: 18, готово.
+Подсчет объектов:   5% (1/18)Подсчет объектов:  11% (2/18)Подсчет объектов:  16% (3/18)Подсчет объектов:  22% (4/18)Подсчет объектов:  27% (5/18)Подсчет объектов:  33% (6/18)Подсчет объектов:  38% (7/18)Подсчет объектов:  44% (8/18)Подсчет объектов:  50% (9/18)Подсчет объектов:  55% (10/18)Подсчет объектов:  61% (11/18)Подсчет объектов:  66% (12/18)Подсчет объектов:  72% (13/18)Подсчет объектов:  77% (14/18)Подсчет объектов:  83% (15/18)Подсчет объектов:  88% (16/18)Подсчет объектов:  94% (17/18)Подсчет объектов: 100% (18/18)Подсчет объектов: 100% (18/18), готово.
+При сжатии изменений используется до 4 потоков
+Сжатие объектов:  12% (1/8)Сжатие объектов:  25% (2/8)Сжатие объектов:  37% (3/8)Сжатие объектов:  50% (4/8)Сжатие объектов:  62% (5/8)Сжатие объектов:  75% (6/8)Сжатие объектов:  87% (7/8)Сжатие объектов: 100% (8/8)Сжатие объектов: 100% (8/8), готово.
+Запись объектов:   9% (1/11)Запись объектов:  18% (2/11)Запись объектов:  27% (3/11)Запись объектов:  36% (4/11)Запись объектов:  45% (5/11)Запись объектов:  54% (6/11)Запись объектов:  63% (7/11)Запись объектов:  72% (8/11)Запись объектов:  81% (9/11)Запись объектов:  90% (10/11)Запись объектов: 100% (11/11)Запись объектов: 100% (11/11), 2.04 КиБ | 2.04 МиБ/с, готово.
+Всего 11 (изменений 3), повторно использовано 0 (изменений 0), повторно использовано пакетов 0
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To github.com:mifomen/less-st.git
+   3c12e5e..f84fe1b  main -> main
+]777;notify;Command completed;git push\]777;precmd\]0;abc@mouse-pc:~/git/less-st\]7;file://mouse-pc/home/abc/git/less-st\[?2004h[abc@mouse-pc less-st]$ gup[Klp less
+[?2004l]777;preexec\[[90m18:18:49[39m] Using gulpfile [35m~/git/less-st/gulpfile.js[39m
+[[90m18:18:49[39m] Starting '[36mless[39m'...
+[[90m18:18:49[39m] '[36mless[39m' [31merrored after[39m [35m6.85 ms[39m
+[[90m18:18:49[39m] ReferenceError: sourcemaps is not defined
+    at /home/abc/git/less-st/gulpfile.js:14:11
+    at taskWrapper (/home/abc/git/less-st/node_modules/undertaker/lib/set-task.js:13:15)
+    at bound (node:domain:416:15)
+    at runBound (node:domain:427:12)
+    at asyncRunner (/home/abc/git/less-st/node_modules/async-done/index.js:55:18)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+]777;notify;Command completed;gulp less\]777;precmd\]0;abc@mouse-pc:~/git/less-st\]7;file://mouse-pc/home/abc/git/less-st\[?2004h[abc@mouse-pc less-st]$ gulp less
+[?2004l]777;preexec\/home/abc/git/less-st/gulpfile.js:76
+    return gulp.task.('less')
+                     ^
+
+SyntaxError: Unexpected token '('
+[90m    at Object.compileFunction (node:vm:352:18)[39m
+[90m    at wrapSafe (node:internal/modules/cjs/loader:1025:15)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1059:27)[39m
+[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1124:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
+[90m    at Function.Module._load (node:internal/modules/cjs/loader:816:12)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m
+[90m    at require (node:internal/modules/cjs/helpers:93:18)[39m
+    at requireOrImport (/usr/lib/node_modules/[4mgulp-cli[24m/lib/shared/require-or-import.js:19:11)
+    at execute (/usr/lib/node_modules/[4mgulp-cli[24m/lib/versioned/^4.0.0/index.js:37:3)
+]777;notify;Command completed;gulp less\]777;precmd\]0;abc@mouse-pc:~/git/less-st\]7;file://mouse-pc/home/abc/git/less-st\[?2004h[abc@mouse-pc less-st]$ gulp less[1Pit pushulp less[K[K[K[K[K
+[?2004l]777;preexec\/home/abc/git/less-st/gulpfile.js:76
+    return gulp.task.('less')
+                     ^
+
+SyntaxError: Unexpected token '('
+[90m    at Object.compileFunction (node:vm:352:18)[39m
+[90m    at wrapSafe (node:internal/modules/cjs/loader:1025:15)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1059:27)[39m
+[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1124:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
+[90m    at Function.Module._load (node:internal/modules/cjs/loader:816:12)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m
+[90m    at require (node:internal/modules/cjs/helpers:93:18)[39m
+    at requireOrImport (/usr/lib/node_modules/[4mgulp-cli[24m/lib/shared/require-or-import.js:19:11)
+    at execute (/usr/lib/node_modules/[4mgulp-cli[24m/lib/versioned/^4.0.0/index.js:37:3)
+]777;notify;Command completed;gulp\]777;precmd\]0;abc@mouse-pc:~/git/less-st\]7;file://mouse-pc/home/abc/git/less-st\[?2004h[abc@mouse-pc less-st]$ gulp
+[?2004l]777;preexec\[[90m18:19:41[39m] Using gulpfile [35m~/git/less-st/gulpfile.js[39m
+[[90m18:19:41[39m] [31mTask never defined: default[39m
+[[90m18:19:41[39m] To list available tasks, try running: gulp --tasks
+]777;notify;Command completed;gulp\]777;precmd\]0;abc@mouse-pc:~/git/less-st\]7;file://mouse-pc/home/abc/git/less-st\[?2004h[abc@mouse-pc less-st]$ gulp
+[?2004l]777;preexec\[[90m18:19:52[39m] Using gulpfile [35m~/git/less-st/gulpfile.js[39m
+[[90m18:19:52[39m] Starting '[36mdefault[39m'...
+[[90m18:19:52[39m] [31mThe following tasks did not complete:[39m [36mdefault[39m
+[[90m18:19:52[39m] [31mDid you forget to signal async completion?[39m
+]777;notify;Command completed;gulp\]777;precmd\]0;abc@mouse-pc:~/git/less-st\]7;file://mouse-pc/home/abc/git/less-st\[?2004h[abc@mouse-pc less-st]$ gulp less
+[?2004l]777;preexec\[[90m18:20:03[39m] Using gulpfile [35m~/git/less-st/gulpfile.js[39m
+[[90m18:20:03[39m] Starting '[36mless[39m'...
+[[90m18:20:03[39m] '[36mless[39m' [31merrored after[39m [35m6.53 ms[39m
+[[90m18:20:03[39m] ReferenceError: sourcemaps is not defined
+    at /home/abc/git/less-st/gulpfile.js:14:11
+    at taskWrapper (/home/abc/git/less-st/node_modules/undertaker/lib/set-task.js:13:15)
+    at bound (node:domain:416:15)
+    at runBound (node:domain:427:12)
+    at asyncRunner (/home/abc/git/less-st/node_modules/async-done/index.js:55:18)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+]777;notify;Command completed;gulp less\]777;precmd\]0;abc@mouse-pc:~/git/less-st\]7;file://mouse-pc/home/abc/git/less-st\[?2004h[abc@mouse-pc less-st]$ clear
+[?2004l]777;preexec\[H[2J[3J]777;notify;Command completed;clear\]777;precmd\]0;abc@mouse-pc:~/git/less-st\]7;file://mouse-pc/home/abc/git/less-st\[?2004h[abc@mouse-pc less-st]$ clear
+[?2004l]777;preexec\[H[2J[3J]777;notify;Command completed;clear\]777;precmd\]0;abc@mouse-pc:~/git/less-st\]7;file://mouse-pc/home/abc/git/less-st\[?2004h[abc@mouse-pc less-st]$ cleargulp less
+[?2004l]777;preexec\[[90m18:20:11[39m] Using gulpfile [35m~/git/less-st/gulpfile.js[39m
+[[90m18:20:11[39m] Starting '[36mless[39m'...
+[[90m18:20:11[39m] '[36mless[39m' [31merrored after[39m [35m6.57 ms[39m
+[[90m18:20:11[39m] ReferenceError: sourcemaps is not defined
+    at /home/abc/git/less-st/gulpfile.js:14:11
+    at taskWrapper (/home/abc/git/less-st/node_modules/undertaker/lib/set-task.js:13:15)
+    at bound (node:domain:416:15)
+    at runBound (node:domain:427:12)
+    at asyncRunner (/home/abc/git/less-st/node_modules/async-done/index.js:55:18)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+]777;notify;Command completed;gulp less\]777;precmd\]0;abc@mouse-pc:~/git/less-st\]7;file://mouse-pc/home/abc/git/less-st\[?2004h[abc@mouse-pc less-st]$ npm i [7mgulp-sourcemaps[27mgulp-sourcemaps --save-dev
+[?2004l]777;preexec\[?25l[[90m..................[0m] - reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K[[90m..................[0m] - idealTree:less-st: [7msill[0m [35midealTree[0m buildDeps[0m[K[[90m..................[0m] \ idealTree:less-st: [7msill[0m [35midealTree[0m buildDeps[0m[K[[90m..................[0m] \ idealTree:less-st: [7msill[0m [35midealTree[0m buildDeps[0m[K[[90m..................[0m] / idealTree:gulp-sourcemaps: [7msill[0m [35mplaceDep[0m ROOT gulp-sourc[0m[K[[90m..................[0m] - idealTree:gulp-sourcemaps: [7msill[0m [35mplaceDep[0m ROOT gulp-sourc[0m[K[[7m     [27m[90m.............[0m] / idealTree:strip-bom-string: [7msill[0m [35mfetch manifest[0m memoizee[0m[K[[7m     [27m[90m.............[0m] / idealTree:strip-bom-string: [7msill[0m [35mfetch manifest[0m memoizee[0m[K[[7m  [27m[90m................[0m] - idealTree:through2: [7msill[0m [35mfetch manifest[0m supports-color@^[0m[K[[7m   [27m[90m...............[0m] / idealTree:memoizee: [7msill[0m [35mfetch manifest[0m ms@^2.1.1[0m[K[[7m     [27m[90m.............[0m] / idealTree:supports-color: [7msill[0m [35mfetch manifest[0m supports-c[0m[K[[7m     [27m[90m.............[0m] - idealTree:color-convert: [7msill[0m [35mplaceDep[0m node_modules/@gul[0m[K[[7m         [27m[90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 977ms[0m[K[[7m          [27m[90m........[0m] \ reify:fsevents: [32;40mtiming[0m [35mreifyNode:node_modules/fsevents[0m C[0m[K[[7m          [27m[90m........[0m] / reify:fsevents: [32;40mtiming[0m [35mreifyNode:node_modules/fsevents[0m C[0m[K[[7m          [27m[90m........[0m] / reify:fsevents: [32;40mtiming[0m [35mreifyNode:node_modules/fsevents[0m C[0m[K[[7m             [27m[90m.....[0m] | reify:detect-newline: [32;40mhttp[0m [35mfetch[0m GET 200 https://registr[0m[K[[7m              [27m[90m....[0m] / reify:through2: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmj[0m[K[[7m                [27m[90m..[0m] \ reify:memoizee: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmj[0m[K[[7m                  [27m] \ reify:acorn: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.o[0m[K[[7m                  [27m] | reify:acorn: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.o[0m[K[[7m                  [27m] \ reify:acorn: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.o[0m[K[[7m                  [27m] | reify:acorn: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.o[0m[K[[7m                  [27m] / reify:acorn: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.o[0m[K[[7m                  [27m] \ reify:acorn: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.o[0m[K[[7m                  [27m] - reify:acorn: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.o[0m[K[K[?25h
+added 29 packages, and audited 654 packages in 2s
+
+20 packages are looking for funding
+  run `npm fund` for details
+
+[31m[1m10[22m[39m vulnerabilities (5 [1mlow[22m, 5 [33m[1mmoderate[22m[39m)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+]777;notify;Command completed;npm i gulp-sourcemaps --save-dev\]777;precmd\]0;abc@mouse-pc:~/git/less-st\]7;file://mouse-pc/home/abc/git/less-st\[?2004h[abc@mouse-pc less-st]$ npm i gulp-sourcemaps --save-dev[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgulp less[K
+[?2004l]777;preexec\[[90m18:20:45[39m] Using gulpfile [35m~/git/less-st/gulpfile.js[39m
+[[90m18:20:45[39m] Starting '[36mless[39m'...
+[[90m18:20:45[39m] Finished '[36mless[39m' after [35m82 ms[39m
+]777;notify;Command completed;gulp less\]777;precmd\]0;abc@mouse-pc:~/git/less-st\]7;file://mouse-pc/home/abc/git/less-st\[?2004h[abc@mouse-pc less-st]$ npm test
+[?2004l]777;preexec\
+> less-st@1.0.0 test
+> gulp build && gulp serve
+
+[[90m18:21:25[39m] Using gulpfile [35m~/git/less-st/gulpfile.js[39m
+[[90m18:21:25[39m] Starting '[36mbuild[39m'...
+[[90m18:21:25[39m] Starting '[36mclear[39m'...
+[[90m18:21:25[39m] Finished '[36mclear[39m' after [35m24 ms[39m
+[[90m18:21:25[39m] Starting '[36mhtml[39m'...
+[[90m18:21:25[39m] Finished '[36mhtml[39m' after [35m11 ms[39m
+[[90m18:21:25[39m] Starting '[36mless[39m'...
+[[90m18:21:25[39m] Finished '[36mless[39m' after [35m53 ms[39m
+[[90m18:21:25[39m] Starting '[36mscript[39m'...
+[[90m18:21:25[39m] Finished '[36mscript[39m' after [35m5.98 ms[39m
+[[90m18:21:25[39m] Finished '[36mbuild[39m' after [35m96 ms[39m
+[[90m18:21:26[39m] Using gulpfile [35m~/git/less-st/gulpfile.js[39m
+[[90m18:21:26[39m] Starting '[36mserve[39m'...
+[[34mBrowsersync[39m] [1mAccess URLs:[22m
+[90m -----------------------------------[39m
+    Local: [35mhttp://localhost:3000[39m
+ External: [35mhttp://192.168.137.2:3000[39m
+[90m -----------------------------------[39m
+[[34mBrowsersync[39m] Serving files from: [35mbuild[39m
+[[90m18:22:29[39m] Starting '[36mless[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.min.css[39m)
+[[90m18:22:29[39m] Finished '[36mless[39m' after [35m65 ms[39m
+[[90m18:22:45[39m] Starting '[36mhtml[39m'...
+[[90m18:22:45[39m] Starting '[36mhtml[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mindex.html[39m)
+[[90m18:22:45[39m] Finished '[36mhtml[39m' after [35m7.95 ms[39m
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mindex.html[39m)
+[[90m18:22:45[39m] Finished '[36mhtml[39m' after [35m13 ms[39m
+[[34mBrowsersync[39m] [36mReloading Browsers... (buffered 2 events)[39m
+[[90m18:22:57[39m] Starting '[36mhtml[39m'...
+[[90m18:22:57[39m] Starting '[36mhtml[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mindex.html[39m)
+[[90m18:22:57[39m] Finished '[36mhtml[39m' after [35m11 ms[39m
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mindex.html[39m)
+[[90m18:22:57[39m] Finished '[36mhtml[39m' after [35m9.68 ms[39m
+[[34mBrowsersync[39m] [36mReloading Browsers... (buffered 2 events)[39m
+[[90m18:23:09[39m] Starting '[36mhtml[39m'...
+[[90m18:23:09[39m] Starting '[36mhtml[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mindex.html[39m)
+[[90m18:23:09[39m] Finished '[36mhtml[39m' after [35m6.88 ms[39m
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mindex.html[39m)
+[[90m18:23:09[39m] Finished '[36mhtml[39m' after [35m11 ms[39m
+[[34mBrowsersync[39m] [36mReloading Browsers... (buffered 2 events)[39m
+[[90m18:24:46[39m] Starting '[36mhtml[39m'...
+[[90m18:24:46[39m] Starting '[36mhtml[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mindex.html[39m)
+[[90m18:24:46[39m] Finished '[36mhtml[39m' after [35m6.11 ms[39m
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mindex.html[39m)
+[[90m18:24:46[39m] Finished '[36mhtml[39m' after [35m8.54 ms[39m
+[[34mBrowsersync[39m] [36mReloading Browsers... (buffered 2 events)[39m
+[[90m18:24:53[39m] Starting '[36mless[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.min.css[39m)
+[[90m18:24:53[39m] Finished '[36mless[39m' after [35m17 ms[39m
+[[90m18:25:41[39m] Starting '[36mhtml[39m'...
+[[90m18:25:41[39m] Starting '[36mhtml[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mindex.html[39m)
+[[90m18:25:41[39m] Finished '[36mhtml[39m' after [35m6.12 ms[39m
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mindex.html[39m)
+[[90m18:25:41[39m] Finished '[36mhtml[39m' after [35m9.19 ms[39m
+[[34mBrowsersync[39m] [36mReloading Browsers... (buffered 2 events)[39m
+[[90m18:26:21[39m] Starting '[36mless[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.min.css[39m)
+[[90m18:26:21[39m] Finished '[36mless[39m' after [35m22 ms[39m
+[[90m18:27:06[39m] Starting '[36mhtml[39m'...
+[[90m18:27:06[39m] Starting '[36mhtml[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mindex.html[39m)
+[[90m18:27:06[39m] Finished '[36mhtml[39m' after [35m9.79 ms[39m
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mindex.html[39m)
+[[90m18:27:06[39m] Finished '[36mhtml[39m' after [35m14 ms[39m
+[[34mBrowsersync[39m] [36mReloading Browsers... (buffered 2 events)[39m
+[[90m18:27:31[39m] Starting '[36mless[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.min.css[39m)
+[[90m18:27:31[39m] Finished '[36mless[39m' after [35m14 ms[39m
+[[90m18:27:34[39m] Starting '[36mless[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.min.css[39m)
+[[90m18:27:34[39m] Finished '[36mless[39m' after [35m18 ms[39m
+[[90m18:27:41[39m] Starting '[36mless[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.min.css[39m)
+[[90m18:27:41[39m] Finished '[36mless[39m' after [35m18 ms[39m
+[[90m18:27:45[39m] Starting '[36mless[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.min.css[39m)
+[[90m18:27:45[39m] Finished '[36mless[39m' after [35m13 ms[39m
+[[90m18:27:53[39m] Starting '[36mless[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.min.css[39m)
+[[90m18:27:53[39m] Finished '[36mless[39m' after [35m38 ms[39m
+[[90m18:28:13[39m] Starting '[36mless[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.min.css[39m)
+[[90m18:28:13[39m] Finished '[36mless[39m' after [35m20 ms[39m
+[[90m18:28:19[39m] Starting '[36mless[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.min.css[39m)
+[[90m18:28:19[39m] Finished '[36mless[39m' after [35m17 ms[39m
+[[90m18:28:33[39m] Starting '[36mless[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.min.css[39m)
+[[90m18:28:33[39m] Finished '[36mless[39m' after [35m17 ms[39m
+[[90m18:29:14[39m] Starting '[36mless[39m'...
+[[90m18:29:14[39m] [36mPlumber[39m[31m found unhandled error:
+[39m [31mError[39m in plugin "[36mgulp-less[39m"
+Message:
+    variable @media is undefined in file /home/abc/git/less-st/src/less/main.less line no. 4
+Details:
+    type: Name
+    filename: /home/abc/git/less-st/src/less/main.less
+    index: 50
+    line: 4
+    column: 10
+    callLine: NaN
+    callExtract: undefined
+    extract: @table: 768px;,@table-are: 750px,@media (min-width: 768px) {
+    lineNumber: 4
+    fileName: /home/abc/git/less-st/src/less/main.less
+
+[[90m18:29:14[39m] Finished '[36mless[39m' after [35m12 ms[39m
+[[90m18:29:31[39m] Starting '[36mless[39m'...
+[[90m18:29:31[39m] [36mPlumber[39m[31m found unhandled error:
+[39m [31mError[39m in plugin "[36mgulp-less[39m"
+Message:
+    @table-area rule is missing block or ending semi-colon in file /home/abc/git/less-st/src/less/main.less line no. 4
+Details:
+    type: Syntax
+    filename: /home/abc/git/less-st/src/less/main.less
+    index: 51
+    line: 4
+    column: 11
+    callLine: NaN
+    callExtract: undefined
+    extract: @table: 768px;,@table-area: 750px,@media (min-width: @tablet {
+    lineNumber: 4
+    fileName: /home/abc/git/less-st/src/less/main.less
+
+[[90m18:29:31[39m] Finished '[36mless[39m' after [35m5.21 ms[39m
+[[90m18:29:42[39m] Starting '[36mless[39m'...
+[[90m18:29:42[39m] [36mPlumber[39m[31m found unhandled error:
+[39m [31mError[39m in plugin "[36mgulp-less[39m"
+Message:
+    @table-area rule is missing block or ending semi-colon in file /home/abc/git/less-st/src/less/main.less line no. 4
+Details:
+    type: Syntax
+    filename: /home/abc/git/less-st/src/less/main.less
+    index: 51
+    line: 4
+    column: 11
+    callLine: NaN
+    callExtract: undefined
+    extract: @table: 768px;,@table-area: 750px,@media (max-width: @tablet {
+    lineNumber: 4
+    fileName: /home/abc/git/less-st/src/less/main.less
+
+[[90m18:29:42[39m] Finished '[36mless[39m' after [35m8.08 ms[39m
+[[90m18:30:14[39m] Starting '[36mless[39m'...
+[[90m18:30:14[39m] [36mPlumber[39m[31m found unhandled error:
+[39m [31mError[39m in plugin "[36mgulp-less[39m"
+Message:
+    Missing closing ')' in file /home/abc/git/less-st/src/less/main.less line no. 11
+Details:
+    type: Parse
+    filename: /home/abc/git/less-st/src/less/main.less
+    index: 196
+    line: 11
+    column: 27
+    callLine: NaN
+    callExtract: undefined
+    extract: ,@media (max-width: @tablet {,  .block {
+    lineNumber: 11
+    fileName: /home/abc/git/less-st/src/less/main.less
+
+[[90m18:30:14[39m] Finished '[36mless[39m' after [35m6 ms[39m
+[[90m18:30:25[39m] Starting '[36mless[39m'...
+[[90m18:30:25[39m] [36mPlumber[39m[31m found unhandled error:
+[39m [31mError[39m in plugin "[36mgulp-less[39m"
+Message:
+    variable @table-area is undefined in file /home/abc/git/less-st/src/less/main.less line no. 17
+Details:
+    type: Name
+    filename: /home/abc/git/less-st/src/less/main.less
+    index: 260
+    line: 17
+    column: 19
+    callLine: NaN
+    callExtract: undefined
+    extract: ,@media (min-width: @table-area) {,  .block {
+    lineNumber: 17
+    fileName: /home/abc/git/less-st/src/less/main.less
+
+[[90m18:30:25[39m] Finished '[36mless[39m' after [35m8.49 ms[39m
+[[90m18:31:11[39m] Starting '[36mless[39m'...
+[[90m18:31:11[39m] [36mPlumber[39m[31m found unhandled error:
+[39m [31mError[39m in plugin "[36mgulp-less[39m"
+Message:
+    variable @table-area is undefined in file /home/abc/git/less-st/src/less/main.less line no. 17
+Details:
+    type: Name
+    filename: /home/abc/git/less-st/src/less/main.less
+    index: 260
+    line: 17
+    column: 19
+    callLine: NaN
+    callExtract: undefined
+    extract: ,@media (min-width: @table-area) {,  .block {
+    lineNumber: 17
+    fileName: /home/abc/git/less-st/src/less/main.less
+
+[[90m18:31:11[39m] Finished '[36mless[39m' after [35m8.46 ms[39m
+[[90m18:31:14[39m] Starting '[36mless[39m'...
+[[90m18:31:14[39m] [36mPlumber[39m[31m found unhandled error:
+[39m [31mError[39m in plugin "[36mgulp-less[39m"
+Message:
+    variable @table-area is undefined in file /home/abc/git/less-st/src/less/main.less line no. 17
+Details:
+    type: Name
+    filename: /home/abc/git/less-s
