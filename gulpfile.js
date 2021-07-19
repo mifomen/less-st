@@ -1,8 +1,9 @@
 let gulp = require('gulp');
-let bs = require('browser-sync').create();// livereload
+let bs = require('browser-sync').create();
 let plumber = require('gulp-plumber');
 let less = require('gulp-less');
-let postcss= require( 'gulp-postcss' ) // post css
+let autoprefixer = require('gulp-autoprefixer')
+let postcss= require( 'gulp-postcss' )
 let mqpacker= require( 'css-mqpacker' )
 let rename = require('gulp-rename');
 let csso = require('gulp-csso');
@@ -31,6 +32,36 @@ gulp.task('less',function () {
     //   title: "Error in scss"
     // }))
     // .pipe(stripCssComments())
+    // .pipe(csso())
+    .pipe(rename('style.min.css'))
+    // .pipe(sourcemaps.write('.')) // delete ',' ? ok ?
+    .pipe(gulp.dest('build/css'))
+    .pipe(bs.reload({
+      stream: true
+    }))
+  })
+
+ gulp.task('less-final',function () {
+    return gulp.src('src/**/*.scss')
+    // .pipe(sourcemaps.init())
+    .pipe(plumber())
+    .pipe(less())
+    // .pipe(sourcemaps.write({includeContente: false, sourceRoot: '.'}))// delete ?
+    // .pipe(sourcemaps.init({loadMaps: true})) // delete ?
+    .pipe(postcss([
+      mqpacker({ sort: true })
+      ])
+    )
+    // .pipe(uncss({
+    //   html: ['./build/index.html']
+    // }))
+    .pipe(autoprefixer({
+      cascade: true
+    }))
+    // .on("error", notify.onError({
+    //   title: "Error in scss"
+    // }))
+    // .pipe(stripCssComments())
     .pipe(csso())
     .pipe(rename('style.min.css'))
     // .pipe(sourcemaps.write('.')) // delete ',' ? ok ?
@@ -40,13 +71,17 @@ gulp.task('less',function () {
     }))
   })
 
-function defaultTask(cb) {
-  // place code for your default task here
-  cb();
-}
 
-exports.default = defaultTask
-
+gulp.task('script', function() {
+    return gulp.src('src/**/main.js')
+    .pipe(plumber())
+    // .pipe(uglify())
+    .pipe(rename('main.min.js'))
+    .pipe(gulp.dest('build/js/'))
+    .pipe(bs.reload({
+      stream: true
+    }))
+  })
 
 gulp.task('html', function (){
   return gulp.src('src/**/*.html')
@@ -77,6 +112,7 @@ gulp.task('build',
       // 'svg',
       'html',
       'less',
+      'script',
       // 'scripts:lib',
       // 'script'
       // $.gulp.parallel('html','img', 'scss'),
@@ -97,6 +133,8 @@ gulp.task('build',
       ui: false
     }),
     gulp.watch("src/less/**/*.less",  gulp.parallel('less'));
+    gulp.watch("src/**/*.html",  gulp.parallel('html'));
+        gulp.watch("src/**/*.js",  gulp.parallel('script'));
     gulp.watch("src/**/*.html",  gulp.parallel('html'));
 
   })

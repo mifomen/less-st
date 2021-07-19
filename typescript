@@ -1,0 +1,132 @@
+Script started on 2021-07-19 17:52:33+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]777;notify;Command completed;sudo dnf install fish\]777;precmd\]0;abc@mouse-pc:~/git/less-st\]7;file://mouse-pc/home/abc/git/less-st\[?2004h[abc@mouse-pc less-st]$ gulp script
+[?2004l]777;preexec\[[90m17:52:37[39m] Using gulpfile [35m~/git/less-st/gulpfile.js[39m
+[[90m17:52:37[39m] Starting '[36mscript[39m'...
+[[90m17:52:37[39m] Finished '[36mscript[39m' after [35m16 ms[39m
+]777;notify;Command completed;gulp script\]777;precmd\]0;abc@mouse-pc:~/git/less-st\]7;file://mouse-pc/home/abc/git/less-st\[?2004h[abc@mouse-pc less-st]$ npm test
+[?2004l]777;preexec\
+> less-st@1.0.0 test
+> gulp build && gulp serve
+
+[[90m17:53:48[39m] Using gulpfile [35m~/git/less-st/gulpfile.js[39m
+[[90m17:53:48[39m] Starting '[36mbuild[39m'...
+[[90m17:53:48[39m] Starting '[36mclear[39m'...
+[[90m17:53:48[39m] Finished '[36mclear[39m' after [35m27 ms[39m
+[[90m17:53:48[39m] Starting '[36mhtml[39m'...
+[[90m17:53:48[39m] Finished '[36mhtml[39m' after [35m13 ms[39m
+[[90m17:53:48[39m] Starting '[36mless[39m'...
+[[90m17:53:48[39m] Finished '[36mless[39m' after [35m35 ms[39m
+[[90m17:53:48[39m] Finished '[36mbuild[39m' after [35m78 ms[39m
+[[90m17:53:49[39m] Using gulpfile [35m~/git/less-st/gulpfile.js[39m
+[[90m17:53:49[39m] Starting '[36mserve[39m'...
+[[34mBrowsersync[39m] [1mAccess URLs:[22m
+[90m -----------------------------------[39m
+    Local: [35mhttp://localhost:3000[39m
+ External: [35mhttp://192.168.137.2:3000[39m
+[90m -----------------------------------[39m
+[[34mBrowsersync[39m] Serving files from: [35mbuild[39m
+[[90m17:54:13[39m] Starting '[36mhtml[39m'...
+[[90m17:54:13[39m] Starting '[36mhtml[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mindex.html[39m)
+[[90m17:54:13[39m] Finished '[36mhtml[39m' after [35m23 ms[39m
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mindex.html[39m)
+[[90m17:54:13[39m] Finished '[36mhtml[39m' after [35m17 ms[39m
+[[34mBrowsersync[39m] [36mReloading Browsers... (buffered 2 events)[39m
+[[90m17:54:39[39m] Starting '[36mhtml[39m'...
+[[90m17:54:39[39m] Starting '[36mhtml[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mindex.html[39m)
+[[90m17:54:39[39m] Finished '[36mhtml[39m' after [35m6.99 ms[39m
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mindex.html[39m)
+[[90m17:54:39[39m] Finished '[36mhtml[39m' after [35m11 ms[39m
+[[34mBrowsersync[39m] [36mReloading Browsers... (buffered 2 events)[39m
+^C
+]777;notify;Command completed;npm test\]777;precmd\]0;abc@mouse-pc:~/git/less-st\]7;file://mouse-pc/home/abc/git/less-st\[?2004h[abc@mouse-pc less-st]$ ^C[?2004l[?2004h[?2004l
+]777;notify;Command completed;npm test\]777;precmd\]0;abc@mouse-pc:~/git/less-st\]7;file://mouse-pc/home/abc/git/less-st\[?2004h[abc@mouse-pc less-st]$ npm test
+[?2004l]777;preexec\
+> less-st@1.0.0 test
+> gulp build && gulp serve
+
+[[90m17:54:48[39m] Using gulpfile [35m~/git/less-st/gulpfile.js[39m
+[[90m17:54:48[39m] Starting '[36mbuild[39m'...
+[[90m17:54:48[39m] Starting '[36mclear[39m'...
+[[90m17:54:48[39m] Finished '[36mclear[39m' after [35m27 ms[39m
+[[90m17:54:48[39m] Starting '[36mhtml[39m'...
+[[90m17:54:48[39m] Finished '[36mhtml[39m' after [35m12 ms[39m
+[[90m17:54:48[39m] Starting '[36mless[39m'...
+[[90m17:54:48[39m] Finished '[36mless[39m' after [35m35 ms[39m
+[[90m17:54:48[39m] Finished '[36mbuild[39m' after [35m77 ms[39m
+[[90m17:54:49[39m] Using gulpfile [35m~/git/less-st/gulpfile.js[39m
+[[90m17:54:49[39m] Starting '[36mserve[39m'...
+[[34mBrowsersync[39m] [1mAccess URLs:[22m
+[90m -----------------------------------[39m
+    Local: [35mhttp://localhost:3000[39m
+ External: [35mhttp://192.168.137.2:3000[39m
+[90m -----------------------------------[39m
+[[34mBrowsersync[39m] Serving files from: [35mbuild[39m
+^C
+]777;notify;Command completed;npm test\]777;precmd\]0;abc@mouse-pc:~/git/less-st\]7;file://mouse-pc/home/abc/git/less-st\[?2004h[abc@mouse-pc less-st]$ ^C[?2004l[?2004h[?2004l
+]777;notify;Command completed;npm test\]777;precmd\]0;abc@mouse-pc:~/git/less-st\]7;file://mouse-pc/home/abc/git/less-st\[?2004h[abc@mouse-pc less-st]$ npm test
+[?2004l]777;preexec\
+> less-st@1.0.0 test
+> gulp build && gulp serve
+
+[[90m17:55:40[39m] Using gulpfile [35m~/git/less-st/gulpfile.js[39m
+[[90m17:55:40[39m] Starting '[36mbuild[39m'...
+[[90m17:55:40[39m] Starting '[36mclear[39m'...
+[[90m17:55:40[39m] Finished '[36mclear[39m' after [35m27 ms[39m
+[[90m17:55:40[39m] Starting '[36mhtml[39m'...
+[[90m17:55:40[39m] Finished '[36mhtml[39m' after [35m19 ms[39m
+[[90m17:55:40[39m] Starting '[36mless[39m'...
+[[90m17:55:40[39m] Finished '[36mless[39m' after [35m50 ms[39m
+[[90m17:55:40[39m] Finished '[36mbuild[39m' after [35m98 ms[39m
+[[90m17:55:41[39m] Using gulpfile [35m~/git/less-st/gulpfile.js[39m
+[[90m17:55:41[39m] Starting '[36mserve[39m'...
+[[34mBrowsersync[39m] [1mAccess URLs:[22m
+[90m -----------------------------------[39m
+    Local: [35mhttp://localhost:3000[39m
+ External: [35mhttp://192.168.137.2:3000[39m
+[90m -----------------------------------[39m
+[[34mBrowsersync[39m] Serving files from: [35mbuild[39m
+^C
+]777;notify;Command completed;npm test\]777;precmd\]0;abc@mouse-pc:~/git/less-st\]7;file://mouse-pc/home/abc/git/less-st\[?2004h[abc@mouse-pc less-st]$ ^C[?2004l[?2004h[?2004l
+]777;notify;Command completed;npm test\]777;precmd\]0;abc@mouse-pc:~/git/less-st\]7;file://mouse-pc/home/abc/git/less-st\[?2004h[abc@mouse-pc less-st]$ npm test
+[?2004l]777;preexec\
+> less-st@1.0.0 test
+> gulp build && gulp serve
+
+[[90m17:56:19[39m] Using gulpfile [35m~/git/less-st/gulpfile.js[39m
+[[90m17:56:19[39m] Starting '[36mbuild[39m'...
+[[90m17:56:19[39m] Starting '[36mclear[39m'...
+[[90m17:56:19[39m] Finished '[36mclear[39m' after [35m26 ms[39m
+[[90m17:56:19[39m] Starting '[36mhtml[39m'...
+[[90m17:56:19[39m] Finished '[36mhtml[39m' after [35m11 ms[39m
+[[90m17:56:19[39m] Starting '[36mless[39m'...
+[[90m17:56:19[39m] Finished '[36mless[39m' after [35m37 ms[39m
+[[90m17:56:19[39m] Starting '[36mscript[39m'...
+[[90m17:56:19[39m] Finished '[36mscript[39m' after [35m6.88 ms[39m
+[[90m17:56:19[39m] Finished '[36mbuild[39m' after [35m83 ms[39m
+[[90m17:56:20[39m] Using gulpfile [35m~/git/less-st/gulpfile.js[39m
+[[90m17:56:20[39m] Starting '[36mserve[39m'...
+[[34mBrowsersync[39m] [1mAccess URLs:[22m
+[90m -----------------------------------[39m
+    Local: [35mhttp://localhost:3000[39m
+ External: [35mhttp://192.168.137.2:3000[39m
+[90m -----------------------------------[39m
+[[34mBrowsersync[39m] Serving files from: [35mbuild[39m
+[[90m17:56:31[39m] Starting '[36mhtml[39m'...
+[[90m17:56:31[39m] Starting '[36mhtml[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mindex.html[39m)
+[[90m17:56:31[39m] Finished '[36mhtml[39m' after [35m22 ms[39m
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mindex.html[39m)
+[[90m17:56:31[39m] Finished '[36mhtml[39m' after [35m15 ms[39m
+[[34mBrowsersync[39m] [36mReloading Browsers... (buffered 2 events)[39m
+[[90m17:56:56[39m] Starting '[36mhtml[39m'...
+[[90m17:56:56[39m] Starting '[36mhtml[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mindex.html[39m)
+[[90m17:56:56[39m] Finished '[36mhtml[39m' after [35m6.86 ms[39m
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mindex.html[39m)
+[[90m17:56:56[39m] Finished '[36mhtml[39m' after [35m9.62 ms[39m
+[[34mBrowsersync[39m] [36mReloading Browsers... (buffered 2 events)[39m
+[[90m17:57:03[39m] Starting '[36mless[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.min.css[39m)
+[[90m17:57:03[39m] Finished '[36mless[
