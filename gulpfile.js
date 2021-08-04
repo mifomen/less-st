@@ -1,14 +1,14 @@
-let gulp = require('gulp');
-let bs = require('browser-sync').create();
-let plumber = require('gulp-plumber');
-let less = require('gulp-less');
-let autoprefixer = require('gulp-autoprefixer')
-let postcss= require( 'gulp-postcss' )
-let mqpacker= require( 'css-mqpacker' )
-let rename = require('gulp-rename');
-let csso = require('gulp-csso');
-let rm = require( 'gulp-rm' )
-let sourcemaps = require('gulp-sourcemaps');
+const gulp = require('gulp');
+const bs = require('browser-sync').create();
+const plumber = require('gulp-plumber');
+const less = require('gulp-less');
+const autoprefixer = require('gulp-autoprefixer')
+const postcss= require( 'gulp-postcss' )
+const mqpacker= require( 'css-mqpacker' )
+const rename = require('gulp-rename');
+const csso = require('gulp-csso');
+const rm = require( 'gulp-rm' )
+const sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('less',function () {
     return gulp.src('src/**/main.less')
