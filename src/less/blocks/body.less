@@ -2,13 +2,40 @@ body {
   height: 100vh;
   background: transparent;
   margin: 0 auto;
-  width: 293px;
+  width: @mobile-area;
   outline: 1px solid hsla(0, 0%, 0%, 1);
   outline-offset: -1px;
 }
 
+.widget {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  &__first-block {
+    order: 2;
+
+    @media @media-7 {
+      order: 1;
+    }
+  }
+
+  &__second-block {
+    order: 1;
+
+    @media @media-7 {
+      order: 2;
+    }
+  }
+}
+
 .first-block {
   position: relative;
+  background-color: red;
+  background-image: url('../img/logo.jpg1');
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 250px;
 
   &__logo {
     position: absolute;
@@ -25,8 +52,9 @@ body {
 
   &__img {
     width: 100%;
-    margin:0;
-    height: auto;
+    // margin:0;
+    // height: 100%;
+    // min-height: 100%;
   }
 }
 
@@ -37,8 +65,9 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-justify-content: center;
-// align-items: center;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
 
   &__text {
     margin-bottom: 40px;
@@ -54,4 +83,11 @@ justify-content: center;
       text-decoration: underline;
     }
   }
+}
+
+
+picture {
+  // height: 1px;
+  // max-height: 1px;
+  font-size: 0;
 }
