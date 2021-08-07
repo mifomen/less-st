@@ -73,6 +73,15 @@ gulp.task('less',function () {
   })
 
 
+gulp.task("copy-img", function (){
+  return gulp.src(["src/img/**/*.*"])
+  .pipe(gulp.dest("build/img"))
+  .pipe(bs.reload({
+    stream: true
+  }))
+})
+
+
 
 gulp.task('script', function() {
     return gulp.src('src/**/main.js')
@@ -104,7 +113,7 @@ gulp.task('clear', function() {
 gulp.task('build',
   gulp.series(
       'clear',
-      // 'copy-fonts',
+      'copy-img',
       // 'copy-css',
       // 'copy-css-54',
       // 'html2pug',
