@@ -1,7 +1,7 @@
 'use strict'
 
-let WidgetButton = document.querySelector('.js-close-widget')
-let Widget = document.querySelector('.widget')
+let WidgetButton = document.querySelector('.js-close-gosuslugi')
+let Widget = document.querySelector('.gosuslugi')
 
 WidgetButton.addEventListener('click', function (evt) {
   Widget.classList.toggle('vh')

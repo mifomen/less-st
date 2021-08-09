@@ -8,7 +8,7 @@ body {
 .dn {
   display: none;
 }
-.widget {
+.gosuslugi {
   position: fixed;
   transition: 300ms ease;
 // position: relative;
@@ -19,12 +19,14 @@ bottom: 0;
 display: flex;
 justify-content: flex-start;
 flex-direction: column;
-width: 400px;
+width: 80%;
 box-sizing: border-box;
 border: 2px solid hsla( 225, 90%, 70% ,1);
 border-top-right-radius: 15px;
 border-top-left-radius: 15px;
 overflow: hidden;
+z-index: 124;
+
 
 @media @media-800 {
   flex-direction: row;
@@ -62,7 +64,8 @@ overflow: hidden;
   box-sizing: border-box;
   padding: 0;
   transition: 500ms ease;
-  z-index: 5;
+  z-index: 125;
+  background-color: transparent;
   &:hover {
     cursor: pointer;
   }
@@ -106,7 +109,7 @@ overflow: hidden;
 .first-block {
   position: relative;
   background-color: grey;
-  background-image: url('../img/logo.jpg');
+  background-image: url('https://www.liceum28.nnov.ru/files/logo.jpg');
 // background-position: 50% 50%;
 background-size: cover;
 width: 100%;
@@ -115,7 +118,7 @@ height: 100%;
 
 
 @media @media-800 {
-  background-image: url('../img/logo-800.jpg');
+  background-image: url('https://www.liceum28.nnov.ru/files/logo-800.jpg');
   background-color: tomato;
   background-position: 0% 5%;
   width: 50%;
