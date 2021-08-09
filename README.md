@@ -16,8 +16,6 @@
 * gulp-uglify": "^3.0.2"
 
 #### use npm i >> npm test and go
-start-project-for-less
-
 
 ## about branches | о ветках
 
