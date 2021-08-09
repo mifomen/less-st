@@ -1,19 +1,19 @@
 # less-st | стартовая конфигурация less + gulp
 
-##with addons
+## with addons
 
-###"browser-sync": "^2.27.4",
-###css-mqpacker": "^7.0.0",
-###gulp": "^4.0.2",
-###gulp-autoprefixer": "^8.0.0",
-###gulp-csso": "^4.0.1",
-###gulp-less": "^5.0.0",
-###gulp-plumber": "^1.2.1",
-###gulp-postcss": "^9.0.0",
-###gulp-rename": "^2.0.0",
-###gulp-rm": "^2.0.0",
-###gulp-sourcemaps": "^3.0.0",
-###gulp-uglify": "^3.0.2"
+### "browser-sync": "^2.27.4",
+### css-mqpacker": "^7.0.0",
+### gulp": "^4.0.2",
+### gulp-autoprefixer": "^8.0.0",
+### gulp-csso": "^4.0.1",
+### gulp-less": "^5.0.0",
+### gulp-plumber": "^1.2.1",
+### gulp-postcss": "^9.0.0",
+### gulp-rename": "^2.0.0",
+### gulp-rm": "^2.0.0",
+### gulp-sourcemaps": "^3.0.0",
+### gulp-uglify": "^3.0.2"
 
 #### use npm i >> npm test and go
 start-project-for-less
