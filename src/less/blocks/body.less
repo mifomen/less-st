@@ -1,9 +1,7 @@
 body,
-.div1 h1,
-.div1 h2,
-.div1 h3,
-.div1 p,
-.div1 span {
+.div2 * ,
+.div1 * {
+
   padding: 0;
   margin: 0;
   line-height: 1;
@@ -33,11 +31,37 @@ body,
   margin: 0;
   padding: 1%;
 }
-
+.div2 {
+  position: relative;
+}
 .div1 {
   position: relative;
   border: 5px solid hsla(107, 78%, 19%,1);
   background-color: hsla(107, 68%, 59%,1);
+  height: auto;
+  &::after {
+    content: " ";
+    clear: both;
+    display: table;
+  }
+    &__img2 {
+    float: left;
+    border-radius: 25px;
+    &::after {
+      // content: "";
+      // clear: both;
+      // display: table;
+    }
+  }
+  &__img {
+    float: right;
+    border-radius: 25px;
+    &::after {
+      // content: "";
+      // clear: both;
+      // display: table;
+    }
+  }
   &__link {
     color: inherit;
     text-decoration: none;

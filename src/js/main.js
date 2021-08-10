@@ -1,35 +1,37 @@
 // console.log('work')
 
-let div1 = document.querySelector('#div1');
-let div2 = document.querySelector('#div2');
-
-// console.log(div1.innerHTML)
-
 let start = function (t1,t2) {
-  t1.innerHTML = t2.innerHTML;
-  // console.log('start')
+  let div1 = document.querySelector(t1);
+  let div2 = document.querySelector(t2);
+  div2.innerHTML = div1.innerHTML;
+  console.log(t1 + ' in ' + t2)
 }
 
-start(div2, div1);
+console.log(document.querySelector('#div1'))
+console.log(document.querySelector('#div2'))
+console.log(document.querySelector('#div3'))
 
+start('#div1', '#div2');
+// start('#div1', '#div3')
+// start('#div1', '#div3');
 // console.log(div1.innerHTML)
 // console.log(div2.innerHTML)
 
-let Div1CloseBtn = document.querySelector('.div1__btn')
+let closeBtns = document.querySelectorAll('.div1__btn')
 
-// console.log(Div1CloseBtn)
+// console.log(closeBtns)
+for (btn of closeBtns) {
+  btn.addEventListener('click', function() {
+    // this.parentElement.classList.add('vh')
+    this.parentNode.classList.add('vh')
+    console.log('close ' + this.parentNode.id)
+  })
+}
 
-Div1CloseBtn.addEventListener('click', function() {
-  div1.classList.add('vh')
-  Div1CloseBtn.classList.add('vh')
-  console.log('close')
-})
 
-
-
- document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
     // alert("DOM готов!");
-    div1.classList.remove('vh')
+    div2.classList.remove('vh')
   });
 
 
