@@ -1,10 +1,18 @@
-body,
 .div2 * ,
-.div1 * {
+.header-msg * {
 
   padding: 0;
   margin: 0;
   line-height: 1;
+}
+.div2 a,
+.header-msg a{
+  text-decoration: none;
+}
+
+.div2 a:hover ,
+.header-msg a:hover{
+  text-decoration: underline;
 }
 .vh {
   position: absolute;
@@ -18,7 +26,7 @@ body,
   display: none;
 }
 
-.div1,
+.header-msg,
 .div2 {
   font-size: 18px;
   padding: 25px;
@@ -34,7 +42,7 @@ body,
 .div2 {
   position: relative;
 }
-.div1 {
+.header-msg {
   position: relative;
   border: 5px solid hsla(107, 80%, 70%,1);
   background-color: hsla(107, 60%, 60%,1);
@@ -43,24 +51,6 @@ body,
     content: " ";
     clear: both;
     display: table;
-  }
-    &__img2 {
-    float: left;
-    border-radius: 25px;
-    &::after {
-      // content: "";
-      // clear: both;
-      // display: table;
-    }
-  }
-  &__img {
-    float: right;
-    border-radius: 25px;
-    &::after {
-      // content: "";
-      // clear: both;
-      // display: table;
-    }
   }
   &__link {
     color: inherit;
@@ -79,12 +69,12 @@ body,
     background-color: transparent;
     border: none;
     position: absolute;
-    width: 50px;
-    height: 44px;
+    width: 27px;
+    height: 27px;
     transition: 300ms;
     cursor: pointer;
-    right: 1.5%;
-    top: 3%;
+    right: 15px;
+    top: 7px;
 
     &:after,
     &:before {
@@ -92,14 +82,14 @@ body,
       border-radius: 25px;
       position: absolute;
       display: block;
-      width: 50px;
-      height: 7px;
+      width: 30px;
+      height: 3px;
       border: 1px solid hsla(255, 0%, 0%,1);
       background-color: hsla(120, 30%, 50%,1);
       border-radius: 15px;
       // background-color: hsla(0, 100%, 100%, 1)
-      left: 0;
-      top: 18px;
+      left: -2px;
+      top: 10px;
     }
     &:after {
       transform: rotate(45deg);
